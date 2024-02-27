@@ -1,0 +1,139 @@
+/* Header Styling */
+.header-container h1 {
+    font-family: 'Quattrocento', serif;
+    color: rgb(242, 239, 236);
+    line-height: 0.80;
+    /* text-align: left; */
+    margin: 0 45%;
+    font-size: 50px;
+}
+
+.background-container {
+    position: absolute;
+    margin-top: 30px;
+    background-color: rgb(29, 29, 29);
+    height: 275px;
+    width: 100%; 
+    z-index: -1; 
+}
+
+.header-container .bracket {
+    font-size: 150px;
+    color: #FBA834;
+    line-height: 0.3;
+}
+
+/* Basic Table Styling */
+th {
+    font-family: 'Quattrocento', serif;
+    color: rgb(242, 239, 236);
+    background-color: rgb(29, 29, 29);
+}
+
+.tags-table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+/* First Table Styling */
+.table-tags-header {
+    position: relative;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.table-tags-header h1 {
+    font-family: 'Quattrocento', serif;
+    color: rgb(29, 29, 29);
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.table-tags-header .open-bracket,
+.table-tags-header .close-bracket {
+    font-family: 'Quattrocento', serif;
+    font-size: 100px;
+    font-weight: bold;
+    color: #FBA834;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.table-tags-header .open-bracket {
+    left: 0;
+}
+
+.table-tags-header .close-bracket {
+    right: 0;
+}
+
+.description-row-title {
+    padding: 1rem;
+    font-size: 25px;
+    width: 50%;
+}
+
+.name-row-title,
+.tags-row-title, 
+.attributes-row-title {
+    padding: 1rem;
+    font-size: 25px;
+    width: 15%;
+}
+
+.description-row,
+.name-row,
+.tags-row {
+    font-family: sans-serif;
+    padding: 0.5rem;
+    width: 500px;
+    margin-left: 5px;
+    color: rgb(29, 29, 29);
+    border-bottom: solid 0.5px rgb(29, 29, 29);
+}
+
+.tags-row,
+.attributes-row {
+    font-family: 'Quattrocento', serif;
+    color: #FBA834;
+    font-size: 1.15rem;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    border-bottom: solid 0.5px rgb(29, 29, 29);
+}
+
+/* Second Table Styling */
+.table-attributes-header {
+    position: relative;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.table-attributes-header h1 {
+    font-family: 'Quattrocento', serif;
+    color: rgb(29, 29, 29);
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.table-attributes-header .open-bracket,
+.table-attributes-header .close-bracket {
+    font-family: 'Quattrocento', serif;
+    font-size: 100px;
+    font-weight: bold;
+    color: #FBA834;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.table-attributes-header .open-bracket {
+    left: 0;
+}
+
+.table-attributes-header .close-bracket {
+    right: 0;
+}
